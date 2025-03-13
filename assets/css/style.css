@@ -10,15 +10,18 @@ header {
   background-color: #0088a4;
   text-align: center;
 }
-/* MAIN */
-main {
-  background-color: #ffffff;
-  padding: 20px;
-}
-main h1 {
-  font-size: 35px;
-  font-weight: bold;
+header img,
+p,
+a {
   margin-bottom: 15px;
+}
+header a {
+  margin-bottom: 30px;
+}
+/* MAIN */
+main,
+aside {
+  background-color: rgb(255, 255, 255);
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
@@ -26,18 +29,15 @@ main h1 {
 
 /* FORM */
 section {
-  background-color: #e6e6e6;
+  background-color: hsl(0, 10%, 88%);
+  border: 0.5px solid black;
 }
-
 /* ELEMENTI NELL' ASIDE */
 aside div {
-  background-color: #e6e6e6;
+  background-color: hsl(0, 10%, 88%);
+  border: 0.5px solid black;
 }
-.div1 {
-  padding: 10px;
-}
-
 /* FOOTER */
 footer {
-  background-color: #17595d;
+  background-color: #0088a4;
 }
