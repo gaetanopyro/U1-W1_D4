@@ -1,14 +1,19 @@
 /* IMPOSTAZIONI GENERALI */
 body {
   background-image: url(../img/sfondo.png);
-  margin: 15px;
+  padding: 15px;
   font-family: "Poppins", sans-serif;
+  line-height: 1.4;
 }
 /* HEADER */
 header {
   background-image: linear-gradient(52deg, rgba(23, 89, 93, 1) 21%, rgba(24, 96, 100, 1) 48%, rgba(26, 118, 121, 1) 82%, rgba(34, 193, 195, 1) 100%);
   background-color: #0088a4;
   text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
 }
 header img,
 p,
@@ -17,8 +22,30 @@ a {
 }
 header a {
   margin-bottom: 30px;
+  color: white;
+  text-decoration: none;
 }
 /* MAIN */
+main {
+  padding-inline: 10px;
+  background-color: white;
+}
+p {
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.intro {
+  color: rgb(167, 167, 167);
+}
+strong {
+  color: hsl(288, 62%, 42%);
+  font-weight: 600px;
+  font-weight: bold;
+}
 main,
 aside {
   background-color: rgb(255, 255, 255);
@@ -30,12 +57,11 @@ aside {
 /* FORM */
 section {
   background-color: hsl(0, 10%, 88%);
-  border: 0.5px solid black;
+  margin-top: 10px;
 }
 /* ELEMENTI NELL' ASIDE */
 aside div {
   background-color: hsl(0, 10%, 88%);
-  border: 0.5px solid black;
 }
 /* FOOTER */
 footer {
