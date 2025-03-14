@@ -14,6 +14,7 @@ header {
   color: white;
   text-transform: uppercase;
   padding: 20px;
+  box-shadow: -2px 2px 9px 2px black;
 }
 header img,
 p,
@@ -24,15 +25,19 @@ header a {
   margin-bottom: 30px;
   color: white;
   text-decoration: none;
+  list-style-type: none;
 }
 /* MAIN */
 main {
   padding-inline: 10px;
   background-color: white;
+  box-shadow: 1px 1px 12px 0px black;
 }
 p {
   margin-bottom: 15px;
 }
+
+/* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
   font-size: 35px;
   margin-bottom: 15px;
@@ -46,24 +51,94 @@ strong {
   font-weight: 600px;
   font-weight: bold;
 }
+code {
+  background-color: hsl(0, 4%, 85%);
+  border-radius: 5px;
+  border: 1px solid #a09e9e;
+}
+article ul li {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+article h2,
+p {
+  margin: 10px;
+}
+article ol li {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+.border {
+  border-top: 2px solid #68a5ff;
+  padding: 15px 0px;
+}
 main,
 aside {
   background-color: rgb(255, 255, 255);
 }
-/* ELEMENTI NEL MAIN - ARTICLE */
-
+iframe {
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
 /* TABELLE */
-
+caption {
+  font-weight: bold;
+}
+table {
+  text-align: center;
+}
+thead {
+  background-color: #68a5ff;
+}
+tbody tr {
+}
 /* FORM */
 section {
   background-color: hsl(0, 10%, 88%);
-  margin-top: 10px;
+  padding: 20px;
+}
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+button {
+  background-color: hsl(216, 78%, 58%);
+  color: white;
 }
 /* ELEMENTI NELL' ASIDE */
+aside {
+  padding-inline: 10px;
+}
 aside div {
   background-color: hsl(0, 10%, 88%);
+  padding-inline: 10px;
+}
+aside a {
+  color: #0088a4;
+}
+.data {
+  text-align: right;
+}
+aside h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px;
 }
 /* FOOTER */
 footer {
-  background-color: #0088a4;
+  background-color: hsl(190, 63%, 31%);
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  display: inline block;
+  margin: 0 auto;
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+footer a {
+  color: magenta;
+  font-weight: bold;
 }
